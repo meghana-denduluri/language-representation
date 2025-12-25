@@ -1,0 +1,9 @@
+{
+  "sentences_processed": 300000,
+  "total_tokens": 6636441,
+  "unique_tokens_before_filter": 126803,
+  "unique_tokens_after_filter": 41730,
+  "vocab_size": 41731,
+  "tokens_removed": 85073,
+  "avg_tokens_per_sentence": 22.12147
+}

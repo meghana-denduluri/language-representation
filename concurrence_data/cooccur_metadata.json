@@ -1,0 +1,11 @@
+{
+  "sentences_processed": 500000,
+  "total_pairs": 93275784,
+  "unique_pairs": 9087785,
+  "skipped_tokens": 306822,
+  "window_size": 5,
+  "vocab_size": 41730,
+  "processing_time_seconds": 105.02111411094666,
+  "use_sparse": true,
+  "timestamp": "2025-12-22T12:59:55.370995"
+}

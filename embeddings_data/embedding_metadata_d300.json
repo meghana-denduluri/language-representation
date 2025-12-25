@@ -1,0 +1,9 @@
+{
+  "dimension": 300,
+  "vocab_size": 41730,
+  "embedding_shape": [
+    41730,
+    300
+  ],
+  "timestamp": "2025-12-22T13:29:06.165802"
+}

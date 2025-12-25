@@ -1,0 +1,65 @@
+{
+  "experiment_config": {
+    "window_sizes": [
+      2,
+      5,
+      10,
+      15
+    ],
+    "num_sentences": 100000,
+    "output_dir": "./window_size_experiments",
+    "progress_interval": 5000
+  },
+  "results": [
+    {
+      "window_size": 2,
+      "vocab_size": 41730,
+      "sentences_processed": 100000,
+      "total_pairs": 7991246,
+      "unique_pairs": 1312759,
+      "nonzero_entries": 2623709,
+      "sparsity": 99.84933273817758,
+      "processing_time_seconds": 14.79103684425354,
+      "processing_time_minutes": 0.246517280737559
+    },
+    {
+      "window_size": 5,
+      "vocab_size": 41730,
+      "sentences_processed": 100000,
+      "total_pairs": 18527236,
+      "unique_pairs": 2790982,
+      "nonzero_entries": 5577423,
+      "sparsity": 99.67971484206694,
+      "processing_time_seconds": 23.605714321136475,
+      "processing_time_minutes": 0.39342857201894127
+    },
+    {
+      "window_size": 10,
+      "vocab_size": 41730,
+      "sentences_processed": 100000,
+      "total_pairs": 32489896,
+      "unique_pairs": 4368507,
+      "nonzero_entries": 8729750,
+      "sparsity": 99.49869153595378,
+      "processing_time_seconds": 35.40397024154663,
+      "processing_time_minutes": 0.5900661706924438
+    },
+    {
+      "window_size": 15,
+      "vocab_size": 41730,
+      "sentences_processed": 100000,
+      "total_pairs": 42573760,
+      "unique_pairs": 5345154,
+      "nonzero_entries": 10681638,
+      "sparsity": 99.38660379286031,
+      "processing_time_seconds": 43.23413705825806,
+      "processing_time_minutes": 0.7205689509709676
+    }
+  ],
+  "recommendation": {
+    "best_window_size": 2,
+    "unique_pairs": 1312759,
+    "processing_time_minutes": 0.246517280737559,
+    "sparsity": 99.84933273817758
+  }
+}
